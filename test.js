@@ -15,7 +15,7 @@ var script_url = "https://script.google.com/macros/s/AKfycbx4-qrqnL8jGrSDg4wWZ3m
         var Telephone= $("#Numéro de téléphone").val();
         var Adresse= $("#Adresse").val();
         
-    var url = script_url+"?callback=ctrlq&Titre="+Titre+"&Entreprise="+Entreprise+"&Prenom="+Prenom+"&id1="+id1+"&name="+name+"&Fonction="+Fonction+"&AdresseMail="+AdresseMail+"&Telephone="+Telephone+"&Adresse="+Adresse+"&action=update";
+    var url = script_url+"?callback=ctrlq&Titre="+Titre+"&Entreprise="+Entreprise+"&Prenom="+Prenom+"&id="+id1+"&name="+name+"&Fonction="+Fonction+"&AdresseMail="+AdresseMail+"&Telephone="+Telephone+"&Adresse="+Adresse+"&action=update";
   
 
     var request = jQuery.ajax({
