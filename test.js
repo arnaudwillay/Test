@@ -6,7 +6,9 @@ var script_url = "https://script.google.com/macros/s/AKfycbx4-qrqnL8jGrSDg4wWZ3m
         $("#re").css("visibility","hidden");
         $('#mySpinner').addClass('spinner');
         var id1 = $("#id").val();
+        alert(id1);
         var Titre= $("#Titre").val();
+        alert(Titre);
         var Entreprise= $("#Entreprise").val();
         var name= $("#name").val();
         var Prenom= $("#Prenom").val();
