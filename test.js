@@ -5,14 +5,14 @@ var script_url = "https://script.google.com/macros/s/AKfycbx4-qrqnL8jGrSDg4wWZ3m
     
         $("#re").css("visibility","hidden");
         $('#mySpinner').addClass('spinner');
-        var id1 = Math.floor(Math.random() * 101);
+        var id1 = $("#id1").val();
         var Titre= $("#Titre").val();
         var Entreprise= $("#Entreprise").val();
         var name= $("#name").val();
         var Prenom= $("#Prenom").val();
         var Fonction= $("#Fonction").val();
         var AdresseMail= $("#AdresseMail").val();
-        var Telephone= $("#Numéro de téléphone").val();
+        var Telephone= $("#NumÃ©ro de tÃ©lÃ©phone").val();
         var Adresse= $("#Adresse").val();
         
     var url = script_url+"?callback=ctrlq&Titre="+Titre+"&Entreprise="+Entreprise+"&Prenom="+Prenom+"&id="+id1+"&name="+name+"&Fonction="+Fonction+"&     AdresseMail="+AdresseMail+"&Telephone="+Telephone+"&Adresse="+Adresse+"&action=update";
