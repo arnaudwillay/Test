@@ -61,3 +61,8 @@ function delete_value(){
     x.className = "show";
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 } 
+function snackbarsuppr() {
+    var x = document.getElementById("snackbarsuppr");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+} 
