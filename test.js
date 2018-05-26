@@ -6,7 +6,6 @@ var script_url = "https://script.google.com/macros/s/AKfycbx4-qrqnL8jGrSDg4wWZ3m
         $("#re").css("visibility","hidden");
         $('#mySpinner').addClass('spinner');
         var id1 = $("#id").val();
-        alert(id1);
         var Titre= $("#Titre").val();
         alert(Titre);
         var Entreprise= $("#Entreprise").val();
@@ -14,7 +13,8 @@ var script_url = "https://script.google.com/macros/s/AKfycbx4-qrqnL8jGrSDg4wWZ3m
         var Prenom= $("#Prenom").val();
         var Fonction= $("#Fonction").val();
         var AdresseMail= $("#AdresseMail").val();
-        var Telephone= $("#Numéro de téléphone").val();
+        var Telephone= $("#Telephone").val();
+        alert(Telephone);
         var Adresse= $("#Adresse").val();
         
     var url = script_url+"?callback=ctrlq&Titre="+Titre+"&Entreprise="+Entreprise+"&Prenom="+Prenom+"&id="+id1+"&name="+name+"&Fonction="+Fonction+"&AdresseMail="+AdresseMail+"&Telephone="+Telephone+"&Adresse="+Adresse+"&action=update";
