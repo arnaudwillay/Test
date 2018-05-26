@@ -36,6 +36,25 @@ var script_url = "https://script.google.com/macros/s/AKfycbx4-qrqnL8jGrSDg4wWZ3m
         read_value();
         
   }
+function delete_value(){
+	$("#re").css("visibility","hidden");
+     document.getElementById("loader").style.visibility = "visible";
+	$('#mySpinner').addClass('spinner');
+    var id1=	$("#id").val();
+	var name= $("#name").val();
+	
+	
+    var url = script_url+"?callback=ctrlq&name="+name+"&id="+id1+"&action=delete";
+  
+
+    var request = jQuery.ajax({
+      crossDomain: true,
+      url: url ,
+      method: "GET",
+      dataType: "jsonp"
+    });
+
+  }
   
   function snackbar() {
     var x = document.getElementById("snackbar");
