@@ -63,4 +63,3 @@ setTimeout("location.reload(true);",1000);
 } 
 var elem=document.querySelector('.modal');
 var instance = M.Modal.init(elem);
-instance.open();
