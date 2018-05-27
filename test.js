@@ -53,7 +53,7 @@ function delete_value(){
       method: "GET",
       dataType: "jsonp"
     });
-setTimeout("location.reload(true);",1000);
+AT_reload();
   }
   
   function snackbar() {
