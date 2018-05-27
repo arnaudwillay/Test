@@ -61,8 +61,7 @@ setTimeout("location.reload(true);",1000);
     x.className = "show";
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 } 
-function snackbarsuppr() {
-    var x = document.getElementById("snackbarsuppr");
-    x.className = "show";
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-} 
+$(document).ready(function(){
+        $(".modal").modal();	
+		
+});
