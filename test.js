@@ -61,7 +61,6 @@ setTimeout("location.reload(true);",1000);
     x.className = "show";
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 } 
-$(document).ready(function(){
-        $(".modal").modal();	
-		
-});
+var elem=document.querySelector('.modal');
+var instance = M.Modal.init(elem);
+instance.open();
